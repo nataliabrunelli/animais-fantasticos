@@ -16,18 +16,18 @@
 </head>
 
 <body>
-  <nav class="menu js-menu">
+  <nav class="menu" data-scroll="suave">
     <ul>
       <li><a href="#animais">Animais</a></li>
       <li><a href="#faq">Faq</a></li>
       <li><a href="#contato">Contato</a></li>
-      <li><a href="https://nataliabrunelli.github.io/nataliabrunelli-portfolio/">Dev →</a></li>
+      <li><a href="https://nataliabrunelli.github.io/nataliabrunelli-portfolio/#sobre">Dev →</a></li>
     </ul>
   </nav>
 
-  <section class="grid-section animais js-scroll" id="animais">
+  <section class="grid-section animais" id="animais" data-anime="scroll">
     <h1 class="titulo">Animais Fantásticos</h1>
-    <ul class="animais-lista js-tabMenu">
+    <ul class="animais-lista" data-tab="menu">
       <li>
         <img src="./img/imagem1.jpg">
       </li>
@@ -47,39 +47,39 @@
         <img src="./img/imagem6.jpg">
       </li>
     </ul>
-    <div class="animais-descricao js-tabDescription">
-      <section>
+    <div class="animais-descricao" data-tab="description">
+      <section data-anime="show-right">
         <h2>Raposa</h2>
         <p>Raposas são pequenos a médios mamíferos onívoros pertencentes a vários gêneros da família Canidae. As raposas têm o crânio achatado, orelhas triangulares verticais, focinho pontiagudo e ligeiramente arrebitado e uma cauda longa e espessa.</p>
         <p>Doze espécies pertencem ao grupo monofilético de "raposas verdadeiras" do gênero Vulpes. </p>
         <p>As raposas vivem em todos os continentes, exceto a Antártida. A distribuição global das raposas, juntamente com sua ampla reputação de astúcia, contribuíram para sua proeminência na cultura popular e no folclore em muitas sociedades ao redor do mundo.</p>
       </section>
 
-      <section>
+      <section data-anime="show-down">
         <h2>Esquilo</h2>
         <p>Os esquilos pertencem a uma grande família de mamíferos roedores, de pequeno e médio porte, conhecida como Sciuridae. No Brasil, são também conhecidos como serelepe, caxinguelê, caxinxe, quatimirim, quatipuru, agutipuru ou acutipuru</p>
         <p>Os esquilos estão espalhados por quase todo o mundo, a maioria nas zonas de climas temperado ou tropical, mas também em algumas zonas de clima frio.</p>
         <p>As sementes são as principais fontes de alimentação, mas também consomem insetos e frutas. Quando coletam alimento, enterram algumas sementes que encontram, sendo que algumas chegam a germinar, como pinhões e coquinhos, acabando por plantar árvores como araucária e jerivá.</p>
       </section>
-      <section>
+      <section data-anime="show-right">
         <h2>Urso</h2>
         <p>Os Ursos (latim científico: Ursidae) constituem uma família de mamíferos carnívoros de grande porte, contendo os ursos e os pandas. Eles são classificados como caníformes ou carnivoros caninos. Os ursos são encontrados nos continentes da América do Norte, América do Sul, Europa e Ásia.</p>
         <p>As características comuns dos ursos modernos incluem corpos grandes com pernas atarracadas, focinhos longos, orelhas pequenas e arredondadas, cabelos desgrenhados, patas plantígradas com cinco garras não retráteis e caudas curtas.</p>
         <p>Os ursos são animais tipicamente solitários e passam a vida toda sozinhos, exceto quando estão a procura de um parceiro para acasalar ou mães acompanhando seus filhotes.</p>
       </section>
-      <section>
+      <section data-anime="show-down">
         <h2>Lobo</h2>
         <p>Lobo é um animal carnívoro da família dos canídeos e que pertence ao gênero Canis. São três espécies que recebem tal designação: o lobo-cinzento (Canis lupus), lobo-etíope (Canis simensis) e o lobo-dourado-africano (Canis lupaster).</p>
         <p>Os lobos geralmente ostentam um porte maior em comparação às demais espécies de canídeos, além de possuírem ampla distribuição geográfica. Os lobos são invariavelmente espécies que ostentam certas habilidades sociais, tendo um espécime/casal de espécimes reprodutor(es) como líder(es).</p>
         <p>A dieta dos lobos são variáveis conforme a espécie analisada. Sendo um grupo de animais hipercarnívoros, com recorrência ocasional ao consumo de plantas.</p>
       </section>
-      <section>
+      <section data-anime="show-right">
         <h2>Macaco</h2>
         <p>Macaco é um termo de origem africana (provavelmente do banto makako) utilizado como designação comum a todas as espécies de símios ou primatas antropoides.</p>
         <p>O termo sagui se origina do tupi antigo sagûi e também designa os macacos calitriquídeos de pequeno porte.</p>
         <p>Alguns são arbóreos (vivendo em árvores), enquanto outros vivem na savana; as dietas diferem entre as várias espécies, mas podem conter qualquer um dos seguintes alimentos: frutas, folhas, sementes, nozes, flores, ovos e pequenos animais (incluindo insetos e aranhas).</p>
       </section>
-      <section>
+      <section data-anime="show-down">
         <h2>Leão</h2>
         <p>O leão (feminino: leoa, nome científico: Panthera leo) é uma espécie de mamífero carnívoro do gênero Panthera e da família Felidae. A espécie é atualmente encontrada na África subsaariana e na Ásia, com uma única população remanescente em perigo, na Índia.</p>
         <p>É um dos quatro grandes felinos, com alguns machos excedendo 250kg em peso, sendo o segundo maior felino recente depois do tigre.</p>
@@ -88,9 +88,9 @@
     </div>
   </section>
 
-  <section class="grid-section faq js-scroll" id="faq">
+  <section class="grid-section faq" id="faq" data-anime="scroll">
     <h1 class="titulo">FAQ</h1>
-    <dl class="faq-lista js-accordion">
+    <dl class="faq-lista" data-anime="accordion">
       <dt>Qual a idade dos animais?</dt>
       <dd>Raposas vivem entre 9 e 13 anos em estado selvagem, já Leões podem chegar a 30 anos em cativeiro.</dd>
       <dt>Eles são fantásticos?</dt>
@@ -100,7 +100,7 @@
     </dl>
   </section>
 
-  <section class="grid-section contato js-scroll" id="contato">
+  <section class="grid-section contato" id="contato" data-anime="scroll">
     <h1 class="titulo">Contato</h1>
     <div class="mapa">
       <img src="./img/mapa.png">
